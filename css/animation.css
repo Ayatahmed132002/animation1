@@ -1,0 +1,187 @@
+body{
+    height:1000px;
+    background-color: rgb(129, 227, 238);
+    
+   
+}
+
+.d1{
+    width:300px;
+    height:200px;
+    background-image:url(../images/marcap2.png);
+    background-size: cover;
+    animation-name:change1;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+
+}
+@keyframes change1 {
+    from{
+        left:0;
+    }
+    to{
+        left:1290px;
+    }
+    
+}
+.d2{
+    width:300px;
+    height:200px;
+    margin-top: 400px;
+    background-image:url(../images/marcap2.png);
+    background-size: cover;
+    animation-name:change2;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    animation-delay:6s;
+
+}
+@keyframes change2 {
+    from{
+        left:0;
+    }
+    to{
+        left:1290px;
+    }
+    
+}
+.d3{
+    width:300px;
+    height:200px;
+    margin-top: 800px;
+    background-image:url(../images/marcap2.png);
+    background-size: cover;
+    animation-name:change3;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    animation-delay:12s;
+
+}
+@keyframes change3 {
+    from{
+        left:0;
+    }
+    to{
+         left:1290px; 
+    }
+    
+}
+.d4{
+    width:300px;
+    height:200px;
+    margin-top: 1200px;
+    background-image:url(../images/marcap2.png);
+    background-size: cover;
+    animation-name:change4;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    animation-delay: 18s;
+
+}
+@keyframes change4 {
+    from{
+        left:0;
+    }
+    to{
+        left:1290px;
+    }
+    
+}
+.d5{
+    width:300px;
+    height:200px;
+    
+    background-image:url(../images/marcap.png);
+    background-size: cover;
+    animation-name:change5;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    margin-left:1360px;
+    margin-top:200px;
+    animation-delay:3s;
+
+}
+@keyframes change5 {
+    from{
+        right:0;
+    }
+    to{
+        right:1290px;
+    }
+    
+}
+.d6{
+    width:300px;
+    height:200px;
+    margin-left: 1360px;
+    margin-top:600px;
+    background-image:url(../images/marcap.png);
+    background-size: cover;
+    animation-name:change6;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    animation-delay:9s;
+
+}
+@keyframes change6 {
+    from{
+        right:0;
+    }
+    to{
+        right:1290px; 
+    }
+    
+}
+.d7{
+    width:300px;
+    height:200px;
+    margin-top: 1000px;
+    background-image:url(../images/marcap.png);
+    background-size: cover;
+    animation-name:change7;
+    animation-duration:3s;
+    position:absolute;
+    animation-fill-mode:forwards;
+    animation-delay: 15s;
+    margin-left: 1360px;
+    
+}
+@keyframes change7 {
+    from{
+        right:0;
+    }
+    to{
+        right:1290px;
+    }
+    
+}
+.d8{
+    width:300px;
+    height:200px;
+    margin-left: 1360px;
+    margin-top:1600px;
+    background-image:url(../images/marcap.png);
+    background-size: cover;
+    animation-name:change8;
+    animation-duration:3s;
+    position:absolute;
+   animation-fill-mode:forwards;
+   animation-delay: 21s;
+   
+  
+}
+@keyframes change8 {
+    from{
+        right:0;
+    }
+    to{
+        right:1290px;
+    }
+    
+}
